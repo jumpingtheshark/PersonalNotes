@@ -21,3 +21,5 @@ import the whole thing to the default (site) urls.py with a
  which I somehow still don't understand.
 
  The idea of this thing is allow people to sign up for skokiejobs.gov.
+
+ also... break up the views.py into a views folder with a separate file for each html file (template)
