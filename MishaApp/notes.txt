@@ -1,0 +1,23 @@
+November 30th- so far, going great!!!
+Next, create models and run migrations!!!!!
+
+
+And get that crud done!!!!
+
+What do I need I think I need to do get started?
+
+There's no way that I'll remember it by heart...
+
+.. but..
+in the misha app -
+add urls.py? right, with like "/" path or something
+
+
+then.. in the views.py add a corresponding view.
+
+and then...
+import the whole thing to the default (site) urls.py with a
+ path("", include("MishaApp.urls"), name="home")...
+ which I somehow still don't understand.
+
+ The idea of this thing is allow people to sign up for skokiejobs.gov.
