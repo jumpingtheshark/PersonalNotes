@@ -1,0 +1,32 @@
+<!-- blog/templates/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Hello from Misha Template!</h1>
+
+<h3>
+    We are gonna grow this into a the back end for skokiejobs.gov!
+
+</h3>
+<h3>
+    <h3>{{ message }}</h3>
+</h3>
+
+<p>This is not an actual count but what the heck {{count}}
+<br> ok, so, now, for shits and giggles let's try writing a loop!
+</p>
+    <table border="1">
+
+        {% for item in items %}
+<tr>
+    <td>
+    {{ item }}
+</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
