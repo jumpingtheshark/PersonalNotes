@@ -1,0 +1,40 @@
+4️⃣ If you DON’T have a project yet
+
+Create one:
+
+django-admin startproject mysite
+cd mysite
+
+
+Your structure will look like:
+
+mysite/
+├── manage.py
+└── mysite/
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+5️⃣ Run database migrations (first time)
+
+This initializes SQLite by default.
+
+python manage.py migrate
+
+6️⃣ Start the development server 🚀
+python manage.py runserver
+
+
+You’ll see something like:
+
+Starting development server at http://127.0.0.1:8000/
+
+
+Open:
+👉 http://localhost:8000
+
+7️⃣ If you already HAVE a Django project
+
+Just cd into the folder with manage.py and run:
+
+python manage.py runserver
