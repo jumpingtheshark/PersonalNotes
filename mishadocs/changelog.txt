@@ -1,0 +1,10 @@
+added models
+ran migrations
+
+added an html form for adding a task
+added a view for that html form in a separate views folder
+when importing models into the view, make sure to use import .. because the models are way down there
+
+
+
+

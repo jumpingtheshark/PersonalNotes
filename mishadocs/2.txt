@@ -1,0 +1,7 @@
+migrations
+
+    python manage.py makemigrations myapp
+
+    python manage.py migrate
+
+    open sqlite studio and look over the db

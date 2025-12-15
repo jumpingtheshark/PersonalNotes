@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Add a task</title>
+</head>
+<body>
+    <h1>Use this page to add a task!</h1>
+
+<form method="post">
+    {% csrf_token %}
+
+
+
+
+     <label for="task">Task:</label><br>
+
+    <textarea
+      id="task"
+      name="task"
+      rows="5"
+      cols="50"
+      placeholder="Enter task details..."
+      required
+    ></textarea>
+
+    <br><br>
+
+
+
+    <button type="submit">Add</button>
+  </form>
+
+
+
+</body>
+</html>
