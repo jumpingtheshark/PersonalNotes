@@ -17,6 +17,7 @@ def add_task(request):
 
             task = Task()
             task.text = task_text
+            task.taskDescription=task_text
             task.addDate = datetime.now()
             task.save()
 
