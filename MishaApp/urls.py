@@ -6,6 +6,7 @@ from .views.home import home
 from .views.add_task import add_task
 from .views.item_added import item_added
 from .views.items import items
+from .views.item import show_item
 
 
 urlpatterns = [
@@ -13,4 +14,6 @@ urlpatterns = [
     path("add/",  add_task, name="add_task"),
     path("added/", item_added, name="item_added"),
     path("items/", items, name="tasks"),
+    path ("task/<int:id>", show_item, name="show_item"),
+
 ]
